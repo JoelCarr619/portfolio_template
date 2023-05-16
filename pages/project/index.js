@@ -2,7 +2,7 @@ import GreetingContainer from "@/components/shared/container/greeting/greetingCo
 import React from "react";
 
 const index = () => {
-  return <GreetingContainer text={"Projects"} />;
+  return <GreetingContainer title={"Projects"} />;
 };
 
 export default index;

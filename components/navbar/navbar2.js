@@ -1,11 +1,12 @@
+import Link from "next/link";
 import React from "react";
 import StyledLink from "./styledLink";
 
-const Navbar = () => {
+const Navbar2 = () => {
   return (
     <div
-      style={{ height: "7vh" }}
-      className="flex items-center w-full  h-full px-4 space-x-4 border-0 text-xl font-bold"
+      style={{ height: "8vh" }}
+      className="flex items-center justify-center w-full h-full font-bold overflow-x-auto"
     >
       <StyledLink href={"/"} text={"Home"} />
       <StyledLink href={"/about"} text={"About"} />
@@ -15,4 +16,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default Navbar2;
